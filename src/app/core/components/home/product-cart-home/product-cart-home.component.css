@@ -1,0 +1,43 @@
+.product-image-wrapper {
+  border: 1px solid #F7F7F5;
+  overflow: hidden;
+}
+.single-products {
+  position: relative;
+}
+.productinfo {
+  position: relative;
+}
+.productinfo img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.productinfo h2 {
+  margin-top: 5px;
+  color: #FE980F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.productinfo p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #696763;
+}
+.add-to-cart {
+  background: #F5F5ED;
+  border: 0 none;
+  border-radius: 0;
+  color: #696763;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.card{
+  margin-bottom: 30px;
+}
+.card-footer{
+  padding: 0;
+}

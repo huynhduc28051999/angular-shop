@@ -1,0 +1,23 @@
+.card-footer {
+  padding: 0;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+.card-footer button {
+  cursor: pointer;
+}
+.add-to-cart {
+  background: rgb(216, 216, 206);
+  border: 0 none;
+  border-radius: 0;
+  color: #52504c;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  /* margin-bottom: 25px; */
+  margin-left: 30%;
+}
+.add-to-cart i {
+  margin-right: 5px;
+}

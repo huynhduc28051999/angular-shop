@@ -1,0 +1,49 @@
+<div class="order-detal">
+  <div class="container">
+    <h1>Order Detail</h1>
+    <div class="delivery"></div>
+    <div class="detail-page detail-container">
+      <div class="header">
+        <div class="title">Shipping Address</div>
+      </div>
+      <div class="content">
+        <div class="shipping-address-container">
+          <div class="shipping-address">
+            <div class="shipping-name">{{orderDetal.shipping.name}}</div>
+            <div class="detail">City: {{orderDetal.shipping.city}}<br>
+              Address1: {{orderDetal.shipping.addressLine1}}<br>
+              Address2: {{orderDetal.shipping.addressLine2}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="delivery"></div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Product</th>
+          <th class="text-center" style="width: 230px">Quantity</th>
+          <th class="text-right" style="width: 200px">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of orderDetal.item">
+          <td>
+            <div [style.backgroundImage]="'url(' + item.product.imageUrl + ')'" class="thumbnail"></div>
+          </td>
+          <td>
+            {{ item.product.title }}
+          </td>
+          <td>
+            {{item.quantity}}
+          </td>
+          <td class="text-right">
+            {{ item.totalPrice | currency:'USD':true }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

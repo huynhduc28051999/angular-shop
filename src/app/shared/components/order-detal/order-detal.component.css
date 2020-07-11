@@ -1,0 +1,47 @@
+.thumbnail{
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-size: cover;;
+}
+.delivery {
+  height: .1875rem;
+  width: 100%;
+  background-position-x: -1.875rem;
+  background-size: 7.25rem .1875rem;
+  background-image: repeating-linear-gradient(45deg,#6fa6d6,#6fa6d6 33px,transparent 0,transparent 41px,#f18d9b 0,#f18d9b 74px,transparent 0,transparent 82px);
+}
+.detail-container {
+  padding: 1.1875rem 1.5rem 1.625rem;
+}
+.detail-page .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: .8125rem;
+}
+.detail-page .header .title{
+  color: rgba(0,0,0,.8);
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
+.detail-page .content {
+  display: flex;
+}
+.shipping-address-container{
+  text-align: start;
+  margin-right: 6%;
+  padding-top: .625rem;
+  flex-shrink: 0;
+}
+.shipping-name{
+  line-height: 1.375rem;
+  margin-bottom: .4375rem;
+  color: rgba(0,0,0,.8);
+}
+.shipping-name .detail{
+  line-height: 1.3125rem;
+  color: rgba(0,0,0,.54);
+  font-size: .75rem;
+}
